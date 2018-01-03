@@ -13,7 +13,7 @@ namespace MvcApplicationGit.Controllers
 
         public ActionResult Index()
         {
-            string str = "Hello";
+            string str = "Hello, This is for testing";
             return View(str);
         }
 

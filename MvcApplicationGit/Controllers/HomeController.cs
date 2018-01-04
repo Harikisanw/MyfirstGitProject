@@ -16,6 +16,11 @@ namespace MvcApplicationGit.Controllers
             string str = "Hello, This is for testing";
             return View(str);
         }
+	public ActionResult Submit()
+
+	{
+	return View();
+	} 
 
     }
 }
